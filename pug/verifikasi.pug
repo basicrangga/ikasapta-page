@@ -1,0 +1,66 @@
+head
+	meta(charset="UTF-8")
+	meta(content="IE=edge",http-equiv="X-UA-Compatible")
+	meta(content="width=device-width,initial-scale=1" name="viewport")
+	meta(content="description" name="description")
+	meta(name="google" content="notranslate")
+	
+	meta(name="msapplication-tap-highlight" content="no")
+	title Title page
+	link(rel="stylesheet", href="/main.97292821.css")
+	link(rel="stylesheet", href="/css/ikasapta.css")
+
+body
+	-let navbarActive = "data-alumni"
+	header
+		include includes/_navbar
+
+		div(
+		class="background-image-container white-text-container bg__data-alumni" 
+		style="background-image: url('/assets/images/5.jpg')"
+		)
+			div(class="overlay")
+			div(class="container")
+				div(class="row")
+					div(class="col-xs-12")
+						h1(class="h1 h1__data") &nbsp
+						p(class="").
+							&nbsp
+		div.section-container
+			.container
+				.row
+					div(class="col-xs-12 col-md-12 section-container-spacer")
+						h2 Mereka, <br>Alumni <br>SMA Negeri 7 Kediri
+						p Untuk menjaga data alumni tetap konsisten, bantu kami untuk memverifikasi alumni yang lain.
+				.row
+					.col-xs-12.col-md-12.section-container-spacer
+						.row
+							- let j = 0;
+							while j<8
+									div.col-xs-6.col-md-3
+											.card
+													img.card-img-top(src="/assets/images/2.jpg" width="100%px;" alt="Card image cap")
+													.card-body
+															h5.card-title LOREM IPSUM
+															p.card-text__kelas XII-IPX-X ~ 9999
+															a(href="/html/daftar.html").btn.btn-sm.btn-secondary__blue
+																| Kenali
+															a(href="/html/daftar.html").btn.btn-sm.btn-secondary__blue
+																| Tidak Kenal
+									- j++
+				.row
+					.col-xs-12.col-md-12.section-container-spacer.text-center
+						a(href="/html/komentari.html").btn.btn-secondary__blue
+							| Selesai
+
+		div(class="section-container section-half-background-image-container")
+			div(class="image-column" style="background-image:url('/assets/images/5.jpg')")
+			div(class="container")
+				div(class="row")
+					div(class="section-label reveal")
+						p SMAN 7 KEDIRI
+					div(class="col-md-6 col-md-offset-6 text-column")
+						h2 #IKASAPTA<br>#BERAKSI
+						p
+							| Bersama alumni kami beraksi dan berkontribusi
+	include includes/_footer

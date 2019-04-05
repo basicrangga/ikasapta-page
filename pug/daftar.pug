@@ -1,0 +1,112 @@
+head
+	meta(charset="UTF-8")
+	meta(content="IE=edge",http-equiv="X-UA-Compatible")
+	meta(content="width=device-width,initial-scale=1" name="viewport")
+	meta(content="description" name="description")
+	meta(name="google" content="notranslate")
+	
+	meta(name="msapplication-tap-highlight" content="no")
+	title Title page
+	link(rel="stylesheet", href="/main.97292821.css")
+	link(rel="stylesheet", href="/css/ikasapta.css")
+
+body
+	-let navbarActive = "data-alumni"
+	header
+		include includes/_navbar
+
+		div(
+		class="background-image-container white-text-container bg__data-alumni" 
+		style="background-image: url('/assets/images/5.jpg')"
+		)
+			div(class="overlay")
+			div(class="container")
+				div(class="row")
+					div(class="col-xs-12")
+						h1(class="h1 h1__data") &nbsp
+						p(class="").
+							&nbsp
+		div.section-container
+			.container
+				.row
+					div(class="col-xs-12 col-md-12 section-container-spacer")
+						h2 Pendataan <br>Alumni <br>SMA Negeri 7 Kediri
+				
+				.row
+					.col-xs-12.col-md-6
+						.row
+							.col-xs-12.col-md-12
+								h5 Data Pribadi
+								.form-group
+									label Nama
+									input(type="text").form-control
+						.row
+							.col-xs-4.col-md-4
+								.form-group
+									label Jenis Kelamin
+									input(type="text").form-control
+							.col-xs-8.col-md-8
+								.form-group
+									label Tahun Masuk
+									input(type="text").form-control
+						.row
+							.col-xs-12.col-md-12
+								.form-group
+									label Alamat Domisili
+									textarea.form-control
+						.row
+							.col-xs-12.col-md-12
+								.form-group
+									label Email
+									input(type="text").form-control
+						.row
+							.col-xs-12.col-md-12
+								.form-group
+									label Nomor HP
+									input(type="text").form-control
+						.row
+							.col-xs-4.col-md-4
+								.form-group
+									label Media
+									input(type="text").form-control
+							.col-xs-8.col-md-8
+								.form-group
+									label Account
+									input(type="text").form-control
+					.col-xs-12.col-md-6
+						.row
+							.col-xs-12.col-md-12
+								.form-group
+									label Photo
+									div
+										image(src="http://via.placeholder.com/318x180")
+									input(type="file").form-control
+						.row
+							.col-xs-12.col-md-12
+								ul
+									li Data dari Alumni digunakan untuk keperluan yang berkaitan dengan kegiatan IKASAPTA khususnya dan SMAN 7 Kediri umumnya.
+									li Database ini dibuat untuk memudahkan alumni saling bertukar informasi yang berkaitan dengan SMAN 7 Kediri dan IKASAPTA.
+									li Bantuan alumni untuk mengisi data ini dengan benar dan lengkap serta bantuan untuk menyebar luaskan link ini akan sangat membantu kami. 
+									li Data pribadi yang rekan-rekan berikan tidak akan kami persalah-gunakan.
+						.row
+							.col-xs-12.col-md-12
+								.form-group
+									label Pesan untuk alumni lain
+									textarea.form-control
+						.row(style="margin-top:20px;")
+							.col-xs-12.col-md-12
+
+								a(href="/html/verifikasi.html").btn.btn-secondary__blue
+									| Daftarkan
+
+		div(class="section-container section-half-background-image-container")
+			div(class="image-column" style="background-image:url('/assets/images/4.jpg')")
+			div(class="container")
+				div(class="row")
+					div(class="section-label reveal")
+						p SMAN 7 KEDIRI
+					div(class="col-md-6 col-md-offset-6 text-column")
+						h2 #IKASAPTA<br>#BERAKSI
+						p
+							| Bersama alumni kami beraksi dan berkontribusi
+	include includes/_footer
