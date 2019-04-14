@@ -55,6 +55,9 @@ h3.text-center {
   button.close {
     display: block; } }
 
+.navbar-btn {
+  float: initial; }
+
 .navbar-btn.btn-secondary__blue {
   border-color: #2385c8;
   color: #2385c8; }
