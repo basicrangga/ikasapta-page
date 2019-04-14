@@ -64,13 +64,17 @@ h3.text-center {
   color: #2385c8;
   background-color: transparent; }
 
-.btn.btn-secondary__blue:hover {
+.btn.btn-secondary__blue.active, .btn.btn-secondary__blue:hover {
   border-color: #2385c8;
   color: white;
   background-color: #2385c8; }
 
 .navbar-inverse .navbar-nav > li > a {
   color: #2385c8; }
+
+.daftar-alumni__warning {
+  margin: 10px;
+  color: lightcoral; }
 
 .h1__data.h1 {
   text-shadow: 2px 2px #575757; }
